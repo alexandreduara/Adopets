@@ -1,0 +1,26 @@
+.cabecalho{
+    height: 295px;
+    background-image: url(../images/bolha__cima.svg), url(../images/traco__cima.svg);
+    background-repeat: no-repeat;
+}
+
+.cabecalho .cabecalho__itens{
+    display: flex;
+    padding: 3em 3em;
+    width: 400px;
+    align-items: center;
+}
+
+.cabecalho__itens .cabecalho__link{
+    margin-right:  60px;
+}
+
+.cabecalho__patas{
+    background-image: url(../images/patas.svg);
+    height: 189.96px;
+    width: 135px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
