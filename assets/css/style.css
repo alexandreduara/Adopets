@@ -1,0 +1,18 @@
+@import url(header.css);
+
+:root {
+    --azul : #3772FF;
+    --verde-agua: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F6F6F6;
+    --fonte-principal: 'Poppins';
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
