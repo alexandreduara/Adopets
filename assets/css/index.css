@@ -1,0 +1,47 @@
+body{
+    background-color: var(--azul);
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+.inicio__logo{
+    width: 60%;
+}
+
+.inicio__titulo{
+    color: var(--creme);
+    font-size: 26px;
+    font-weight: 500;
+    padding: 1.5em 0 1em 0;
+}
+
+.inicio__texto{
+    color: var(--creme);
+    width: 70%;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 1em;
+}
+
+.inicio .inicio__botao{
+    width: 50%;
+}
+
+.inicio__imagem{
+    width: 50vw;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/images/pets__principal.svg);
+    background-position: 0em 1.5em;
+}
+
+.bolha__direita{
+    top: 22%;
+    right: 0vw;
+}

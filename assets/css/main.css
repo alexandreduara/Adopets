@@ -1,0 +1,30 @@
+.bolha{
+    background-image: url(/assets/images/bolha__direita.svg);
+    height: 65vh;
+    width: 20vw;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.botao{
+    background-color: var(--coral);
+    height: 40px;
+    margin: .5em 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--creme);
+    font-weight: 600;
+}
+
+.texto__negrito--azul{
+    font-weight: 700;
+    color: var(--azul);
+}
+
+.texto__azul{
+    font-weight: 400;
+    color: var(--azul);
+}

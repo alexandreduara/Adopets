@@ -8,7 +8,9 @@
 
 .rodape__texto{
     color: var(--creme);
-    padding: 30px 50px;
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .rodape__texto:hover{
@@ -18,10 +20,16 @@
 .rodape a{
     display: flex;
     transition: 1s all;
+
+    align-items: center;
 }
 
 .rodape a:hover{
     transform: scale(1.1);
     -webkit-filter: blur(5px);
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.rodape .rodape__imagem{
+    width: 30px;
 }
