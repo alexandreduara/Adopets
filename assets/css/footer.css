@@ -1,0 +1,27 @@
+.rodape{
+    background-color: var(--verde-agua);
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__texto{
+    color: var(--creme);
+    padding: 30px 50px;
+}
+
+.rodape__texto:hover{
+    color: var(--coral);
+}
+
+.rodape a{
+    display: flex;
+    transition: 1s all;
+}
+
+.rodape a:hover{
+    transform: scale(1.1);
+    -webkit-filter: blur(5px);
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
